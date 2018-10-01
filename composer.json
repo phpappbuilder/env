@@ -1,0 +1,20 @@
+{
+    "name": "phpappbuilder/env",
+    "description": "Env vars for centurion-app",
+    "type": "library",
+    "license": "mit",
+    "authors": [
+        {
+            "name": "Вячеслав",
+            "email": "slavik@itservices.in.ua"
+        }
+    ],
+    "autoload":
+    {
+        "psr-4": { "Env\\": "src/"},
+        "files": ["src/autoload/functions.php"]
+    },
+    "require": {
+    }
+    
+}
